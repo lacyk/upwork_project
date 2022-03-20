@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  // .header item
+  &_item {
+    flex: 0 1 50%;
+
+    &.image__item {
+      background: url("../img/bg.jpeg") center / cover no-repeat;
+    }
+
+    &.info_item {
+
+    }
+  }
+
+    &_bg {
+      object-fit: cover;
+    }
+}

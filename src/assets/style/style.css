@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+header_item {
+  flex: 0 1 50%;
+}
+header_item.image__item {
+  background: url("../img/bg.jpeg") center/cover no-repeat;
+}
+header_bg {
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
